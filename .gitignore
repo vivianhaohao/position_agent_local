@@ -1,22 +1,26 @@
-# Python
+# python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.log
 
-# virtual env
+# editor configure
+.vscode/
+.idea/
+
+# virtual envrionment
 env/
 venv/
 .venv/
 
-# editor
-.vscode/
-.idea/
-
 # system
 .DS_Store
+Thumbs.db
 
-# temporary configure
-*.env
+# local
+*.log
 *.sqlite
+*.db
 *.json
+
+# local environment
+.env
