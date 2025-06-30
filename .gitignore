@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# virtual env
+env/
+venv/
+.venv/
+
+# editor
+.vscode/
+.idea/
+
+# system
+.DS_Store
+
+# temporary configure
+*.env
+*.sqlite
+*.json
