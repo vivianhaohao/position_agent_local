@@ -10,9 +10,6 @@ from users_state.user_state import set_user_state,get_user_state,clear_user_stat
 from tools.add_user_logs import add_user_logs
 
 
-
-
-
 logger=logging.getLogger(__name__)
 
 async def connect_user_wallet(update:Update,context:ContextTypes.DEFAULT_TYPE):
